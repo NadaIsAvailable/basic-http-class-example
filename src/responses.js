@@ -1,5 +1,4 @@
 const fs = require('fs');
-const { send } = require('process');
 
 const index = fs.readFileSync(`${__dirname}/../client/client.html`);
 const client2 = fs.readFileSync(`${__dirname}/../client/client2.html`);
